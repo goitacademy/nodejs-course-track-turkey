@@ -1,10 +1,10 @@
-## План занятя
+## Ders Planı
 
-1. Розказати за історію розвитку клієнт-серверної архітектури
-   - Початок інтернету - HTML,CSS, JS
+1. İstemci-sunucu mimarisinin gelişim tarihini anlatın
+   - İnternetin başlangıcı — HTML, CSS, JS
    - Ера php (img 1)
-   - Клієнт-серверна архітектура (img 2)
-   - Мікросервіси (img 3)
-2. Розказати за загальну стуктуру додатку (веб-серверу) (img 4-7)
-3. Розказати про переваги і недоліки різних баз даних, способи використання (SQL та NoSQL) (img 8-9)
-4. Розказати за принципи REST API на прикладі https://jsonplaceholder.typicode.com/ із використанням Postman
+   - İstemci-sunucu mimarisi (img 2)
+   - Mikroservisler (img 3)
+2. Uygulamanın (web sunucusunun) genel yapısını anlatın (img 4-7)
+3. Farklı veritabanlarının avantajları ve dezavantajları, kullanım yöntemleri (SQL ve NoSQL) hakkında bilgi verin (img 8-9)
+4. Postman kullanarak https://jsonplaceholder.typicode.com/ örneği üzerinden REST API ilkelerini anlatın

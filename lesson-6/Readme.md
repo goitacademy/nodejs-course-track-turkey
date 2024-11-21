@@ -1,11 +1,12 @@
-## План занятя
-Кахут https://create.kahoot.it/details/f01d784a-c669-4c69-8b39-444a271c80a2
+## Ders Planı
 
-1. Розказати за body, хедери, що з ним асоційовані:
+Kahoot https://create.kahoot.it/details/f01d784a-c669-4c69-8b39-444a271c80a2
+
+1. Body ve onunla ilişkili başlıklar hakkında konuşun:
    - Content-Type
    - Content-Length
-2. Поговорити про middleware для парсингу тіла. express.json(), його параметри
-3. Створити POST /students (без валідації)
-4. Створити PUT /students/:studentId (без валідації). Розказати про логіку upsert
-5. Створити PATCH /students/:studentId (без валідації)
-6. Створити DELETE /students/:studentId (без валідації)
+2. Gövdeyi ayrıştırmak için middleware hakkında konuşun. express.json(), parametreleri
+3. POST /students oluşturun (doğrulama olmadan)
+4. PUT /students/:studentId oluşturun (doğrulama olmadan). Upsert mantığını açıklayın
+5. PATCH /students/:studentId oluşturun (doğrulama olmadan)
+6. DELETE /students/:studentId oluşturun (doğrulama olmadan)

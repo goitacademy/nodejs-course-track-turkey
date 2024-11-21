@@ -1,16 +1,16 @@
-## План заняття
+## Ders Planı
 
-Кахут https://create.kahoot.it/details/214b58ac-c2f2-49a5-b31e-d39caff5b04f
+Kahoot https://create.kahoot.it/details/214b58ac-c2f2-49a5-b31e-d39caff5b04f
 
-1. Коротко розказати студентам про SMTP, POP3 протоколи, чому потрібно використовувати SMTP-cервер для надсилання повыдомлень
-2. Розказати про загальний флоу про скидання паролю за допомогою пошти
-3. Створити ендпоінт /auth/request-reset-password-email, за допомогою якого в переданий в body email буде надсилатися лист:
+1. Öğrencilere SMTP, POP3 protokolleri hakkında kısaca bilgi verin, mesaj göndermek için neden bir SMTP sunucusu kullanılması gerektiğini açıklayın.
+2. E-posta yoluyla parola sıfırlama sürecinin genel akışını anlatın.
+3. Body kısmında verilen e-posta adresine bir e-posta gönderilecek olan /auth/request-reset-password-email endpoint'ini oluşturun:
 
-- Розказати про сетап nodemailer для відправлення повідомлень, використовуючи SMTP-сервер від brevo
-- Розказати про необхідний мінімум параметрів, що нам необіхідні для надсилання листів: html, to, from, subject
-- Розказати про jwt, дефолтні поля пейлоаду токену, генерацію токенів за допомогою бібліотеки jsonwebtoken, дебаг докенів за допомогою jwt.io, про нюанси із безпекою (можна прочитати, не можна підробити інформацію)
-- Розказати про шаблонізацію, генерацію html-розмітки листа за допомогою шаблонізатора handlebars
+- Brevo'nun SMTP sunucusunu kullanarak mesaj göndermek için nodemailer kurulumunu anlatın.
+- E-posta göndermek için gerekli minimum parametreler hakkında bilgi verin: html, to, from, subject.
+- JWT, token payload'unun varsayılan alanları, jsonwebtoken kütüphanesi ile token oluşturma, jwt.io ile token hata ayıklama, güvenlik ile ilgili nüanslar (okunabilir, bilgi sahteciliği yapılamaz) hakkında bilgi verin.
+- Handlebars şablonlayıcı kullanarak e-posta için HTML içeriği oluşturma ve şablonlama hakkında bilgi verin.
 
-4. Створити ендпоінт /auth/reset-password, створити логіку щобо скидування паролю на основі jwt токену, що приходить із фронтенда
+4. /auth/reset-password endpoint'ini oluşturun, frontend'den gelen JWT tokenine dayalı parola sıfırlama mantığını oluşturun.
 
-- Не забути про верифікацію токена
+- Token doğrulamasını unutmayın.

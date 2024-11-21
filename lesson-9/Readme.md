@@ -1,21 +1,23 @@
-## План заняття
-Кахут https://create.kahoot.it/details/3b150cb9-00eb-4121-a5da-06bf0a1d4531
-1. Створюємо процес реєстрації користувача
+## Ders Planı
 
-- Нова колекція User із полями name, email, password
-- Роут для реєстрації
-- Хешування паролю і навіщо воно потрібно
-- Видалення пароля із відповіді через переписування методу toJSON у моделі
+Kahoot https://create.kahoot.it/details/3b150cb9-00eb-4121-a5da-06bf0a1d4531
 
-2. Створюєм процес логіну користувача
+1. Kullanıcı kaydı sürecini oluşturuyoruz
 
-- порівняняння надійсланого паролю із записаним в базі даних
-- механізм сессій, access+refresh токени
-- Нова колекція Session із полями userId, accessToken, refreshToken, accessTokenValidUntil, refreshTokenValidUntil
-- створення сесії під час логіну
-- Cookie як окремий різновид хедерів, бібліотека cookie-parser для парсинга куків, передача refreshToken в cookies в response
+- Name, email, password alanlarına sahip yeni bir User koleksiyonu
+- Kayıt için rota
+- Şifreleme ve neden gerekli olduğu
+- Modelde toJSON metodunu yeniden yazarak yanıttan şifrenin kaldırılması
 
-3. Створюємо логаут
+2. Kullanıcı giriş sürecini oluşturuyoruz
 
-- видалення сесії із бази
-- видалення куків, що стосуються сесії
+- Gönderilen parolanın veritabanında kayıtlı olanla karşılaştırılması
+- Oturum mekanizması, erişim+yenileme jetonları
+- userId, accessToken, refreshToken, accessTokenValidUntil, refreshTokenValidUntil alanlarına sahip yeni bir Session koleksiyonu
+- Giriş sırasında oturum oluşturma
+- Çerezler, başlıkların ayrı bir türü olarak, çerezleri ayrıştırmak için cookie-parser kütüphanesi, yanıt içinde refreshToken'ı çerezlerde iletme
+
+3. Çıkış yapmayı oluşturuyoruz
+
+- Veritabanından oturumun silinmesi
+- Oturumla ilgili çerezlerin silinmesi

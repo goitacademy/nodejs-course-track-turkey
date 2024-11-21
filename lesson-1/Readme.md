@@ -1,18 +1,20 @@
-## План занятя
-Без кахуту
-1. Розказати про себе
-2. Розказати про основні поради щодо курсу і взагалі (img 0)
-3. Розказати про те, як працює JS в браузері та Node.js(на прикладі із службою підтримки) (img 1-4)
-4. Розказати про основні переваги та недоліки Node.js
-5. Насетапити проект
-   - Показати встановлення Node.js, роботу із nvm
-   - Ініціалізувати проект (npm init)
-   - Перенести .editorcongif, .prettierrc
-   - Насетапити лінтер
-   - Ініціалізувати гіт
-6. Показати і розказати про **path** тa **fs** модулі
-   - синхронна модель виклику API (наприклад, readFileSync)
-   - колбечна модель виклику API
-   - промісова моделі модель виклику API (fs/promises)
+## Ders Planı
+
+Kahoot'suz
+
+1. Kendinizden bahsedin.
+2. Kurs ve genel olarak temel tavsiyeler hakkında bilgi verin (img 0).
+3. JS'in tarayıcıda ve Node.js'de nasıl çalıştığını anlatın (destek hizmeti örneğiyle) (img 1-4).
+4. Node.js'in temel avantajları ve dezavantajları hakkında bilgi verin.
+5. Projeyi kurun
+   - Node.js'in kurulumu ve nvm ile çalışma gösterin
+   - Projeyi başlatın (npm init)
+   - .editorconfig, .prettierrc dosyalarını taşıyın
+   - Lintara basın
+   - Git'i başlatın
+6. **path** ve **fs** modüllerini gösterin ve anlatın
+   - API'nin senkron çağrı modeli (örneğin, readFileSync)
+   - Callback çağrı modeli
+   - Promise tabanlı çağrı modeli (fs/promises)
    - Buffer
-   - основні методи обох модулів
+   - Her iki modülün de temel yöntemleri
